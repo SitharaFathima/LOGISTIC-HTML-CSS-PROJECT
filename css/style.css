@@ -487,9 +487,10 @@ header nav ul li a {
 	font-size: 6px;
 }
 #testimonial{
-	background: url("../images/background - thoran.png") no-repeat;
-	background-size: 641px;
-	background-position: left -91px bottom -111px;
+	padding-top: 50px;
+    background: url("../images/background - thoran.png") no-repeat;
+    background-size: 572px;
+    background-position: left -22px bottom -114px;
 }
 #testimonial section.top{
 	text-align: center;
@@ -514,10 +515,9 @@ header nav ul li a {
 	justify-content: space-between;
 	margin-bottom: 80px;
 }
-#testimonial section.bottom div.item{
+#testimonial section.bottom div.item {
 	width: 33%;
 	padding: 30px 33px 0;
-
 }
 #testimonial section.bottom div.item.middle{
 	box-shadow: 0 0 53px -7px rgba(0, 0, 0, 0.1);
@@ -679,6 +679,10 @@ footer div.content div.item ul li span{
 footer div.content div.item ul li span:last-child{
 	margin-right: 0;
 }
+footer div.content div.item ul li span a{
+	display: inline-block;
+	width: 16px;
+}
 footer div.content div.item ul li span img{
 	display: inline-block;
 	margin-left: 15px;
@@ -707,5 +711,17 @@ footer div.bottom p a{
 	color: #ff8210;
 	font-weight: bold;
 }
+/* responsive */
 
-
+@media all and (max-width: 1380px){
+	#testimonial {
+		background-size: 479px;
+		background-position: left -22px bottom 0px;
+	}
+	#work div.content form button {
+		right: 207px;
+	}
+	footer div.content div.item {
+		width: 18%;
+	}
+}
