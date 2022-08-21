@@ -1,0 +1,711 @@
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	vertical-align: baseline;
+	background: transparent;
+	font-weight: normal;
+	text-decoration: none;
+	outline: none;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+ol, ul {
+	list-style: none;
+}
+del {
+	text-decoration: line-through;
+}
+body {
+	font-family: "GT-Eesti", Arial, Helvetica, sans-serif;
+	font-size: 17px;
+	color: #253858;
+	overflow-x: hidden;
+	min-width: 320px;
+	font-weight: 500;
+}
+input,textarea,select{
+	font-family: "GT-Eesti", Arial, Helvetica, sans-serif;
+	font-weight: 500;
+}
+
+a{
+	color: #253858;
+}
+a:hover,.submit:hover{
+	filter: alpha(opacity = 85);
+	-moz-opacity: 0.85;
+	-khtml-opacity: 0.85;
+	opacity: 0.85;
+}
+.thumb{
+	display: block;
+}
+.thumb img{
+	display: block;
+	width:100%;
+}
+p{
+	line-height:1.6em;
+	font-size: 16px;
+	font-family: "GT-Eesti", Arial;
+	font-weight: 500;
+	color: #42526E;
+}
+.hidden{
+	display:none;
+}
+br.clear {
+	clear: both;
+	line-height: 0;
+}
+.wrapper {
+	width: 90%;
+	margin: 0 auto;
+	max-width:1300px;
+}
+::placeholder {
+	color: #C0CCDA;
+	opacity: 1;
+}
+
+:-ms-input-placeholder {
+	color: #C0CCDA;
+}
+
+::-ms-input-placeholder {
+	color: #C0CCDA;
+}
+#home{
+	background: url("../images/background\ -\ spotlight.svg");
+}
+header{
+	padding: 35px 100px 100px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+header h1{
+	width: 60px;
+}
+header h1 a{
+	display: block;
+}
+header h1 a img{
+	display: block;
+	width: 100%;
+}
+header nav { 
+
+}
+header nav ul { 
+	display: flex;
+}
+header nav ul li { 
+	margin-right: 50px;
+}	
+header nav ul li:last-child { 
+	margin-right: 0;
+}	
+header nav ul li:first-child a { 
+	color: #FF7A00;
+}	
+header nav ul li a { 
+	font-weight: bold;
+	font-size: 18px;
+	color: #080133;
+}
+#spotlight { 
+	padding: 50px 0 ;
+}
+#spotlight section.container{ 
+	display: flex;
+	justify-content: space-between;
+}
+#spotlight section.container div.left { 
+	width: 40%;
+}
+#spotlight section.container div.left h2 { 
+	color: #FF7A00;
+	font-family: 'poppinssemibold';
+	font-size: 65px;
+	line-height: 4.5rem;
+	margin-bottom: 45px;
+}
+#spotlight section.container div.left h2 span { 
+	color: #080133;
+	display: block;
+}
+#spotlight section.container div.left p { 
+	font-size: 17px;
+	margin-bottom: 40px;
+	width: 85%;
+	color: #aaa;
+	margin-bottom: 55px;
+}
+#spotlight section.container div.left a.button { 
+	padding: 20px 50px;
+	border-radius: 50px;
+	background: #FBD573;
+	display: inline-block;
+	font-size: 15px;
+	font-weight: bold;
+	box-shadow: 0 0 20px 2px rgba(0, 0, 0, 0.1);
+	color: #080133;
+}
+#spotlight section.container div.right {	
+	width: 45%;
+	position: relative;
+}
+#spotlight section.container div.right div.image {
+	width: 100%;
+}
+#spotlight section.container div.right div.image img{
+	width: 100%;
+	display: block;
+}
+#spotlight section.container div.right div.image2 {
+	display: block;
+	width: 60%;
+	top: 67px;
+	left: -182px;
+	position: absolute;
+}
+#spotlight section.container div.right div.image2 img{
+	display: block;
+	width: 100%;
+}
+#main { 
+	padding: 150px 0 50px;
+	background: url("../images/background - thoran.png") no-repeat;
+	background-size: 876px;
+	background-position: left -283px top 10px;
+}
+#main section.container { 
+	display: flex;
+	justify-content:space-between;
+	align-items: center;
+	margin-bottom: 80px;
+}
+#main section.container div.left { 
+	position: relative;
+	width: 55%;
+}
+#main section.container div.left div.image { 
+	width: 65%;
+    position: absolute;
+    right: 110px;
+    top: -272px;
+}
+#main section.container div.left div.image img { 
+	width: 100%;
+	display: block;
+}
+#main section.container div.right { 
+	width: 40%;
+}
+#main section.container div.right span { 
+	font-size: 12px;
+	margin-bottom: 10px;
+	color: #FF7A00;
+	display: block;
+}
+#main  section.container div.right h2 { 
+	font-family: 'poppinssemibold';
+	margin-bottom: 20px;
+	font-size: 35px;
+	color: #080133;
+}
+#main  section.container div.right h2 span { 
+	color: #FF7A00;
+	font-size: 35px;
+	display: inline-block;
+}
+#main section.container div.right p { 
+	font-size: 17px;
+	margin-bottom: 35px;
+	color: #aaa;
+	width: 85%;
+}
+#main section.container div.right p b { 
+	color: #FF7A00;
+	font-weight: bold;
+}
+#main section.container div.right a.button { 
+	padding: 20px 50px;
+	border-radius: 50px;
+	background: #FBD573;
+	display: inline-block;
+	font-size: 15px;
+	font-weight: bold;
+	box-shadow: 0 0 20px 2px rgba(0, 0, 0, 0.1);
+	color: #080133;
+}
+#main section.service { 
+	width: 80%;
+	margin: 150px auto 80px;
+	text-align: center;
+}
+#main section.service span { 
+	font-size: 12px;
+	margin-bottom: 10px;
+	color: #FF7A00;
+	display: block;
+}
+#main section.service h2 { 
+	font-family: 'poppinssemibold';
+	margin-bottom: 25px;
+	font-size: 35px;
+	color: #080133;
+}
+#main section.service h2 span { 
+	color: #FF7A00;
+	font-size: 35px;
+	display: inline-block;
+}
+#main section.service p { 
+	color: #aaa;
+	width: 85%;
+	margin: 0 auto;
+}
+#main section.box{
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+#main section.box div.item{
+	box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.1);
+	width: 48%;
+	padding: 35px;
+	margin-bottom: 43px;
+	display: flex;
+	border-radius: 15px;
+}
+#main section.box div.item.one{
+	box-shadow: 0 0 53px -11px rgba(0, 0, 0, 0.1);
+}
+#main section.box div.item div.img{
+	width: 20%;
+	text-align: left;
+}
+#main section.box div.item div.img img{
+	display: inline-block;
+	width: 50px;
+}
+#main section.box div.item div.content{
+	width: 80%;
+	text-align: left;
+}
+#main section.box div.item div.content h2{
+	font-family: 'poppinssemibold';
+	font-size: 20px;  
+	margin-bottom: 20px;
+	color: #080133;
+}
+#main section.box div.item div.content p{
+	font-size: 15px;
+	color: #aaa;
+}
+#main div.bottom {
+	text-align: center;
+}
+#main div a.button{
+	padding: 20px 50px;
+	border-radius: 50px;
+	background: #FBD573;
+	display: inline-block;
+	font-size: 15px;
+	font-weight: bold;
+	box-shadow: 0 0 20px 2px rgba(0, 0, 0, 0.1);
+	color: #080133;
+}
+#overview { 
+	padding: 150px 80px 100px;
+    background: url(../images/background\ -\ thoran.svg) no-repeat;
+    background-size: 842px;
+    background-position: right -253px top 42px;
+}
+#overview section.container { 
+	display: flex;
+	justify-content:space-between;
+	align-items: center;
+	margin-bottom: 80px;
+}
+#overview section.container div.right { 
+	width: 45%;
+}
+#overview section.container div.right span { 
+	font-size: 12px;
+	margin-bottom: 10px;
+	color: #FF7A00;
+	display: block;
+}
+#overview section.container div.right h2 { 
+	font-family: 'poppinssemibold';
+	margin-bottom: 20px;
+	font-size: 35px;
+	color: #080133;
+	width: 90%;
+}
+#overview section.container div.right h2 span { 
+	color: #FF7A00;
+	font-size: 35px;
+	display: inline-block;
+}
+#overview section.container div.right p { 
+	font-size: 17px;
+	margin-bottom: 35px;
+	color: #aaa;
+	width: 85%;
+}
+#overview section.container div.right p b { 
+	color: #FF7A00;
+	font-weight: bold;
+}
+#overview section.container div.right a.button { 
+	padding: 20px 50px;
+	border-radius: 50px;
+	background: #FBD573;
+	display: inline-block;
+	font-size: 15px;
+	font-weight: bold;
+	box-shadow: 0 0 20px 2px rgba(0, 0, 0, 0.1);
+	color: #080133;
+}
+#overview section.container div.left { 
+	width: 55%;
+	position: relative;
+}
+#overview section.container div.left div.image { 
+	width: 65%;
+    position: absolute;
+	right: -13px;
+    top: -164px;
+}
+#overview section.container div.left div.image img { 
+	width: 100%;
+	display: block;
+}
+#map{
+	
+}
+#map div.content{
+	text-align: center;
+	margin-bottom: 80px;
+}
+#map div.content a.about{
+	font-size: 12px;
+	margin-bottom: 10px;
+	color: #FF7A00;
+	display: block;
+}
+#map div.content h2{
+	font-family: 'poppinssemibold';
+	margin-bottom: 25px;
+	color: #080133;
+}
+#map div.content h2 span{
+	color: #FF7A00;
+}
+#map div.map{
+	position: relative;
+}
+#map div.map img.one{
+	width: 100%;
+	display: block;
+}
+#map div.map img{
+	width: 30px;
+}
+#map div.map img.two{
+	position: absolute;
+	top: 8px;
+	left: 221px;
+}
+#map div.map img.three{
+	position: absolute;
+	top: 64px;
+	left: 143px;
+}
+#map div.map img.four{
+	position: absolute;
+	top: 169px;
+	left: 246px;
+}
+#map div.map img.five{
+	position: absolute;
+	bottom: 143px;
+	left: 321px;
+}
+#map div.map img.six{
+	position: absolute;
+	bottom: 285px;
+	left: 544px;
+}
+#map div.map img.seven{
+	position: absolute;
+	bottom: 259px;
+	right: 310px;
+}
+#map div.map img.eight{
+	position: absolute;
+	top: 82px;
+	right: 355px;
+}
+#map div.map div{
+	padding: 4px 15px;
+	border-radius: 4px;
+	background: #fff;
+	display: inline-block;
+	text-align: center;
+	box-shadow: 0 0 17px 4px rgba(0, 0, 0, 0.1);
+	box-sizing: border-box;
+}
+#map div.map div.one{
+	position: absolute;
+	top: 97px;
+	left: 126px;
+}
+#map div.map div.two{
+	position: absolute;
+	bottom: 242px;
+	right: 290px;
+}
+#map div.map div.three{
+	position: absolute;
+	top: 116px;
+	right: 338px;
+}
+#map div.map div h6{
+	color: #FF7A00;
+	font-size: 7px;
+	font-family: 'poppinssemibold';
+}
+#map div.map div p{
+	color: #aaa;
+	font-size: 6px;
+}
+#testimonial{
+	background: url("../images/background - thoran.png") no-repeat;
+	background-size: 641px;
+	background-position: left -91px bottom -111px;
+}
+#testimonial section.top{
+	text-align: center;
+	margin: 85px 0;
+}
+#testimonial section.top a.about{
+	font-size: 12px;
+	margin-bottom: 10px;
+	color: #FF7A00;
+	display: block;
+}
+#testimonial section.top h2{
+	font-family: 'poppinssemibold';
+	margin-bottom: 25px;
+	color: #080133;
+}
+#testimonial section.top h2 span{
+	color: #FF7A00;
+}
+#testimonial section.bottom{
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 80px;
+}
+#testimonial section.bottom div.item{
+	width: 33%;
+	padding: 30px 33px 0;
+
+}
+#testimonial section.bottom div.item.middle{
+	box-shadow: 0 0 53px -7px rgba(0, 0, 0, 0.1);
+	border-radius: 18px;
+}
+#testimonial section.bottom div.item span{
+	width: 50px;
+	position: relative;
+	display: block;
+}
+#testimonial section.bottom div.item span img{
+	display: block;
+	width: 100%;
+	border-radius: 50px;
+	position: absolute;
+	top: -54px;
+	right: 5px;
+	box-shadow: 0 0 53px -7px rgba(0, 0, 0, 0.1);
+}
+#testimonial section.bottom div.item p{
+	font-size: 15px;
+	width: 80%;
+	color: #aaa;
+	margin: 25px 0 50px;
+}
+#testimonial section.bottom div.item hr.line{
+	border: 0.5px solid #f0efef;
+	margin-bottom: 20px;
+}
+#testimonial section.bottom div.item div.one{
+	display: flex;
+	justify-content: space-between;
+}
+#testimonial section.bottom div.item div.one div.left h5{
+	color: #080133;
+	font-size: 13px;
+	font-family: 'poppinssemibold';
+	font-weight: bold;
+}
+#testimonial section.bottom div.item div.one div.left p.one{
+	font-size: 12px;
+	margin-top: 10px;
+}
+#testimonial section.bottom div.item div.one div.right img{
+	width: 20px;
+}
+#work{
+	padding: 0 100px 80px;
+}
+#work div.content{
+	background: url("../images/background - work for us.png") no-repeat;
+	background-size: cover;
+	border-radius: 15px;
+	padding: 100px 70px;
+}
+#work div.content h2{
+	font-family: 'poppinssemibold';
+	margin-bottom: 25px;
+	text-align: center;
+	color: #080133;
+}
+#work div.content h2 span{
+	color: #FF7A00;
+}
+#work div.content p{
+	font-size: 15px;
+	color: #655555;
+	font-weight: bold;
+	text-align: center;
+	margin: 0 auto 50px;
+	max-width: 80%;
+}
+#work div.content form{
+	text-align: center;
+	position: relative;
+}
+#work div.content form input[type="text"]{
+	padding: 20px 15px;
+	font-size: 14px;
+	display: inline-block;
+	background: #fff;
+	border-radius: 8px;
+	width: 65%;
+	margin-right: 5px;
+}
+#work div.content form button{
+	padding-right: 14px;
+	position: absolute;
+	right: 247px;
+	top: 20px;
+}
+#work div.content form button img{
+	display: inline-block;
+	width: 14px;
+}
+#work div.content form input[type="submit"]{
+	padding: 20px 35px;
+	background: #080133;
+	color: #fff;
+	border-radius: 15px;
+}
+footer{
+	padding: 30px 100px;
+}
+footer div.content{
+	margin-bottom: 80px;
+	display: flex;
+	justify-content: space-between;
+}
+footer div.content div.item{
+	width: 15%;
+}
+footer div.content div.item.one{
+	width: 45%;
+}
+footer div.content div.item.one h1{
+	width: 60px;
+	margin-bottom: 30px;
+}
+footer div.content div.item.one h1 a{
+	display: block;
+}
+footer div.content div.item.one h1 a img{
+	display: block;
+	width: 100%;
+}
+footer div.content div.item.one p{
+	font-size: 15px;
+	color: #aaa;
+	line-height: 1.7em;
+	width: 90%;
+}
+footer div.content div.item ul{
+}
+footer div.content div.item ul li{
+	font-size: 13px;
+	margin-bottom: 15px;
+	color: #9895aa;
+}
+footer div.content div.item ul li h3{
+	font-size: 14px;
+	font-family: 'poppinssemibold';
+	margin-bottom: 30px;
+	color: #000;
+}
+footer div.content div.item ul li p{
+	font-size: 15px;
+	color: #aaa;
+	width: 98%;
+}
+footer div.content div.item ul li span{
+	background: #FBD573;
+	display: inline-block;
+	border-radius: 50px;
+	width: 45px;
+	height: 45px;
+	margin-right: 6px;
+}
+footer div.content div.item ul li span:last-child{
+	margin-right: 0;
+}
+footer div.content div.item ul li span img{
+	display: inline-block;
+	margin-left: 15px;
+	margin-top: 8px;
+}
+footer div.content div.item ul li span img.one{
+	margin-left: 10px;
+	margin-top: 12px;
+}
+footer div.content div.item ul li span img.two{
+	margin-left: 8px;
+	margin-top: 11px;
+}
+footer div.bottom{
+	text-align: center;
+}
+footer div.bottom hr{
+	margin-bottom: 30px;
+	border: 0.5px solid #f0efef;
+	}
+footer div.bottom p{
+	color: #7f7e7b;
+	font-size: 14px;
+}
+footer div.bottom p a{
+	color: #ff8210;
+	font-weight: bold;
+}
+@mediawidth all and (max-)
+
