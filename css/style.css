@@ -668,49 +668,39 @@ footer div.content div.item ul li p{
 	color: #aaa;
 	width: 98%;
 }
-footer div.content div.item ul li span{
-	background: #FBD573;
+footer div.content div.item ul li.flex {
+
+	display: flex;
+	justify-content: space-between;
+}
+footer div.content div.item ul li.flex div{
+	width: 42px;
+	height: 42px;
+	background:  #FBD573;
+	border-radius: 50px;	
+}
+footer div.content div.item ul li.flex div a{
 	display: inline-block;
-	border-radius: 50px;
-	width: 45px;
-	height: 45px;
-	margin-right: 6px;
+	width: 9px;
+	margin-left: 16px;
+    margin-top: 12px;
 }
-footer div.content div.item ul li span:last-child{
-	margin-right: 0;
+footer div.content div.item ul li.flex div img{
+	width: 100%;
+	display: block;
+	
 }
-footer div.content div.item ul li span a{
-	display: inline-block;
-	width: 16px;
+footer div.content div.item ul li.flex div a.one{
+	width: 15px;
+    margin-left: 15px;
+    margin-top: 14px;
 }
-footer div.content div.item ul li span img{
-	display: inline-block;
-	margin-left: 15px;
-	margin-top: 8px;
+footer div.content div.item ul li.flex div a.two{
+	width: 19px;
+    margin-left: 11px;
+    margin-top: 14px;
 }
-footer div.content div.item ul li span img.one{
-	margin-left: 10px;
-	margin-top: 12px;
-}
-footer div.content div.item ul li span img.two{
-	margin-left: 8px;
-	margin-top: 11px;
-}
-footer div.bottom{
-	text-align: center;
-}
-footer div.bottom hr{
-	margin-bottom: 30px;
-	border: 0.5px solid #f0efef;
-	}
-footer div.bottom p{
-	color: #7f7e7b;
-	font-size: 14px;
-}
-footer div.bottom p a{
-	color: #ff8210;
-	font-weight: bold;
-}
+
 /* responsive */
 
 @media all and (max-width: 1380px){
