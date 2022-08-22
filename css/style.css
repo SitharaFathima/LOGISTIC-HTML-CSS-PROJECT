@@ -785,10 +785,360 @@ footer div.bottom p a{
 	#map div.map img.five {
 		bottom: 124px;
 		left: 344px;
+	}	
+}
+@media all and (max-width: 1280px){
+	header nav ul li {
+		margin-right: 25px;
 	}
-	
-	
-	
-	
-	
+	#spotlight section.container div.left h2 {
+		font-size: 55px;
+	}
+	#spotlight section.container div.right {
+		width: 40%;
+	}
+	#spotlight section.container div.right div.image2 {
+		top: 48px;
+		left: -140px;
+	}
+	#spotlight section.container div.left {
+		width: 45%;
+	}
+	#spotlight section.container div.left p {
+		width: 95%;
+	}
+	#main section.container div.right {
+		width: 50%;
+	}
+	#main {
+		background-size: 582px;
+		background-position: left -191px top 106px;
+	}
+	#main section.container div.left div.image {
+		top: -182px;
+		right: 52px;
+	}
+	#main section.container div.right p {
+		width: 90%;
+	}
+	#overview {
+		background-size: 715px;
+		background-position: right -253px top 105px;
+	}
+	#overview section.container div.left div.image {
+		width: 72%;
+	}
+	#overview {
+		padding: 150px 30px 100px;
+		background-size: 703px;
+		background-position: right -202px top 107px;
+	}
+	#overview section.container div.right {
+		width: 55%;
+	}
+	#overview section.container div.left {
+		width: 50%;
+	}
+	#overview section.container div.left div.image {
+		width: 85%;
+	}	
+	#overview section.container div.right p {
+		width: 100%;
+	}
+	#map div.map img.two {
+		top: -11px;
+		left: 210px;
+	}
+	#map div.map img.three {
+		top: 59px;
+		left: 125px;
+	}
+	#map div.map img.four {
+		top: 139px;
+		left: 215px;
+	}
+	#map div.map div.one {
+		top: 91px;
+		left: 112px;
+	}
+	#map div.map img.five {
+		bottom: 95px;
+		left: 282px;
+	}
+	#map div.map img.six {
+		bottom: 234px;
+		left: 483px;
+	}
+	#map div.map img.eight {
+		top: 76px;
+		right: 311px;
+	}
+	#map div.map div.three {
+		top: 108px;
+		right: 296px;
+	}
+	#map div.map img.seven {
+		bottom: 223px;
+		right: 273px;
+	}
+	#map div.map div.two {
+		bottom: 205px;
+		right: 257px;
+	}
+	#testimonial {
+		background-size: 449px;
+		background-position: left -74px bottom -22px;
+	}
+	#testimonial section.bottom div.item p {
+		width: 100%;
+	}
+	#work {
+		padding: 0 30px 80px;
+	}
+	#work div.content {
+		background: url("../images/background - work for us.png") no-repeat;
+		background-size: cover;
+		border-radius: 15px;
+		padding: 101px 20px;
+	}
+	footer {
+		padding: 30px 60px;
+	}
+}
+@media all and (max-width: 1080px){
+	#overview {
+		background-size: 625px;
+	}
+	#map div.map img.five {
+		bottom: 97px;
+		left: 264px;
+	}
+	#map div.map img.two {
+		top: -13px;
+		left: 196px;
+	}
+	#map div.map img.three {
+		top: 47px;
+		left: 129px;
+	}
+	#map div.map div.one {
+		top: 79px;
+		left: 117px;
+	}
+	#map div.map img.four {
+		top: 134px;
+		left: 200px;
+	}
+	#map div.map img.six {
+		bottom: 226px;
+		left: 443px;
+	}
+	#map div.map img.eight {
+		top: 72px;
+		right: 290px;
+	}
+	#map div.map div.three {
+		top: 108px;
+		right: 275px;
+	}
+	footer div.content div.item.one p {
+		width: 80%;
+	}
+}
+@media all and (max-width: 980px){
+	header {
+		padding: 35px 33px 60px;
+	}
+	header nav ul li a {
+		font-size: 14px;
+	}
+	#spotlight section.container div.left h2 {
+		font-size: 40px;
+		line-height: 3.5rem;
+		margin-bottom: 25px;
+	}
+	#spotlight section.container div.right div.image2 {
+		top: 31px;
+		left: -86px;
+	}
+	#spotlight section.container div.left p {
+		width: 100%;
+		font-size: 15px;
+		margin-bottom: 35px;
+	}
+	#spotlight section.container div.right {
+		width: 45%;
+	}
+	#spotlight section.container div.left a.button {
+		padding: 16px 45px;
+		font-size: 12px;
+	}
+	#main {
+		padding: 90px 0 50px;
+		background-size: 504px;
+		background-position: left -191px top 80px;
+	}
+	#main div a.button {
+		padding: 16px 45px;
+		font-size: 14px;
+	}
+	#main section.container div.left div.image {
+    	width: 85%;
+		top: -186px;
+	}
+	#main section.container div.right h2 {
+		margin-bottom: 15px;
+	}
+	#main section.container div.right p {
+		font-size: 14px;
+		margin-bottom: 30px;
+	}
+	#main section.container div.right a.button {
+		padding: 16px 45px;
+		font-size: 14px;
+	}
+	#main section.service p {
+		width: 100%;
+	}
+	#main section.box div.item {
+		width: 90%;
+		margin: 0 auto;
+		margin-bottom: 30px;
+	}	
+	#overview {
+		padding: 120px 30px 30px;
+		background-position: right -202px top 47px;
+		background-size: 572px;
+	}
+	#overview section.container div.left div.image {
+		width: 100%;
+	}
+	#overview section.container div.right p {
+		font-size: 14px;
+	}
+	#overview section.container div.right h2 {
+		font-size: 25px;
+	}
+	#overview section.container div.right h2 span{
+		font-size: 25px;
+	}
+	#overview section.container div.right a.button {
+		font-size: 14px;
+		padding: 16px 50px;
+	}	
+	#map div.map img{
+		width: 16px;
+	}
+	#map div.map img.two {
+		top: -3px;
+		left: 156px;
+	}
+	#map div.map img.three {
+		top: 42px;
+		left: 94px;
+	}
+	#map div.map div {
+		padding: 1px 8px;
+	}
+	#map div.map div.one {
+		top: 62px;
+		left: 80px;
+	}
+	#map div.map div.one {
+		top: 62px;
+		left: 80px;
+	}	
+	#map div.map img.five {
+		bottom: 74px;
+		left: 208px;
+	}
+	#map div.map img.eight {
+		top: 56px;
+		right: 230px;
+	}
+	#map div.map div.three {
+		top: 74px;
+		right: 216px;
+	}
+	#map div.map img.six {	
+		bottom: 170px;
+		left: 474px;
+	}
+	#map div.map div.two {
+		bottom: 153px;
+		right: 186px;
+	}
+	#map div.map img.seven {
+		bottom: 176px;
+		right: 322px;
+	}
+	#testimonial {
+		padding-top: 0;
+		background: none;
+	}
+	#testimonial section.bottom div.item p {
+		font-size: 13px;
+	}
+	#testimonial section.bottom div.item {
+		width: 33%;
+		padding: 30px 20px 0;
+	}
+	#testimonial section.bottom div.item div.one div.right img {
+		width: 15px;
+	}
+	#work div.content {
+		padding: 35px 0;
+	}		
+	#work div.content p {
+		font-size: 13px;
+	}
+	#work div.content form input[type="text"] {
+    	padding: 15px 15px;
+	}
+	#work div.content form button {
+		right: 177px;
+	}
+	#work div.content form input[type="submit"] {
+		padding: 15px 35px;
+	}
+	footer {
+		padding: 10px 14px;
+	}
+	footer div.content div.item.one p {
+		width: 90%;
+	}
+	footer div.content div.item.one p {
+		font-size: 13px;
+	}
+	footer div.content div.item ul li p {
+		font-size: 13px;
+	}
+	footer div.content div.item {
+		width: 20%;
+	}
+	footer div.content div.item ul li.flex div {
+		width: 34px;
+		height: 34px;
+	}
+	footer div.content div.item ul li.flex div a {
+		margin-left: 13px;
+		margin-top: 9px;
+	}		
+	footer div.content div.item ul li.flex div a.one {
+		width: 15px;
+		margin-left: 11px;
+	}
+	footer div.content div.item ul li.flex div a.two {
+		margin-left: 8px;
+		margin-top: 10px;
+	}
+	footer div.content div.item.one {
+		width: 40%;
+	}
+	footer div.content div.item ul li {
+		font-size: 12px;
+	}
+	footer div.bottom {
+		padding-bottom: 15px;
+	}
 }
