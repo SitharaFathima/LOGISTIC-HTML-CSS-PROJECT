@@ -1309,6 +1309,128 @@ footer div.bottom p a{
 		#main section.service{
 			text-align: start;
 		}
+		#main section.box div.item {
+			width: 100%;
+		}
+		#main section.box div.item div.content {
+			width: 100%;
+		}
+		#main section.box div.item div.content p {
+			font-size: 14px;
+		}
+		#main section.box div.item div.content h2 {
+			font-size: 17px;
+		}				
+		#main section.box div.item {
+			padding: 25px;
+		}
+		#main section.box div.item div.img img {
+			width: 30px;
+		}
+		#overview section.container div.left {
+			display: none;
+		}
+		#overview {
+			padding: 120px 60px 30px;
+		}
+		#overview section.container div.right {
+			width: 100%;
+		}
+		#map div.map img {
+			width: 10px;
+		}
+		#map div.map img.two {
+			top: 3px;
+			left: 93px;
+		}
+		#map div.map img.three {
+			top: 24px;
+			left: 60px
+		}
+		#map div.map div h6 {
+			font-size: 5px;
+		}
+		#map div.map div p {
+			font-size: 5px;
+		}
+		#map div.map div {
+			padding: 1px 4px;
+		}
+		#map div.map div.one {
+			top: 35px;
+			left: 50px;
+		}
+		#map div.map img.seven {
+			bottom: 133px;
+			right: 323px;
+		}
+		#map div.map img.five {
+			bottom: 48px;
+			left: 128px;
+		}
+		#map div.map img.four {
+			top: 93px;
+			left: 226px;
+		}
+		#map div.map img.six {
+			bottom: 108px;
+			left: 297px;
+		}
+		#map div.map img.eight {
+			top: 33px;
+			right: 145px;
+		}
+		#map div.map div.three {
+			top: 47px;
+			right: 135px;
+		}
+		#map div.map div.two {
+			bottom: 94px;
+			right: 114px;
+		}
+		#testimonial section.bottom div.item {
+			padding: 30px 15px 0;
+		}
+		#testimonial section.bottom div.item p {
+			font-size: 12px;
+		}
+		#testimonial section.bottom div.item div.one div.left h5 {
+			font-size: 12px;
+		}
+		#testimonial section.bottom div.item div.one div.left p.one {
+			font-size: 10px;
+		}
+		#work div.content h2 {		
+			font-size: 18px;
+		}
+		#work div.content p {
+			font-size: 10px;
+		}
+		#work div.content form input[type="text"] {
+			padding: 10px;
+			font-size: 10px;
+		}		
+		#work div.content form button {
+			right: 124px;
+		}
+		#work div.content form button img {
+			width: 10px;
+		}
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 		
 		
 		
