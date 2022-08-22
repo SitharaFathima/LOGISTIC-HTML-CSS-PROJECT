@@ -1266,11 +1266,56 @@ footer div.bottom p a{
 		margin-top: 11px;
 	}
 	@media all and (max-width: 640px){
+		header {
+			padding: 35px 60px 0;
+		}
 		header nav ul {
 			display: none;
 		}
+		#spotlight{
+		padding: 50px;
+		}
+		#spotlight section.container div.right {
+			display: none;
+		}
+		#spotlight section.container div.left {
+			width: 100%;
+		}
+		#spotlight section.container div.left p {
+			font-size: 15px;
+		}          
+		#spotlight section.container div.left h2 {
+			font-size: 40px;
+		}
+		#main {
+			padding: 90px 45px 50px;
+			background: none;
+		}
+		#main section.container div.left {
+			display: none;
+		}
+		#main section.container div.right {
+			width: 100%;
+		}
+		#main section.service h2 {
+			font-size: 27px;
+		}
+		#main section.service h2 span{
+			font-size: 27px;
+		}
+		#main section.service p {
+			font-size: 14px;
+		}
+		#main section.service{
+			text-align: start;
+		}
 		
-                       
+		
+		
+		
+		
+		
+
 	}
 		
 	
