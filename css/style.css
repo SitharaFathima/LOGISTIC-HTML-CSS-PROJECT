@@ -1519,7 +1519,7 @@ footer div.bottom p a{
     }
     #overview {
         background: none;
-        padding: 120px 30px 30px;
+        padding: 120px 30px 25px;
     }
     #overview section.container div.right h2 {
         font-size: 20px;
@@ -1531,6 +1531,165 @@ footer div.bottom p a{
         font-size: 12px;
         padding: 14px 35px;
     }
+    #map div.content h2 {
+        font-size: 23px;
+    }
+    #map div.map img.two {
+        top: 0px;
+        left: 68px;
+    }
+    #map div.map img.three {
+        top: 19px;
+        left: 43px;
+    }
+    #map div.map div h6 {
+        font-size: 3px;
+    }
+    #map div.map div p {
+        font-size: 3px;
+    }
+    #map div.map div {
+        border-radius: 2px;
+    }
+    #map div.map div.one {
+        top: 31px;
+        left: 37px;
+    }
+    #map div.map img.seven {
+        bottom: 100px;
+        right: 241px;
+    }
+    #map div.map img.five {
+        bottom: 31px;
+        left: 97px;
+    }
+    #map div.map img.four {
+        top: 70px;
+        left: 221px;
+    }
+    #map div.map div.two {
+        bottom: 71px;
+        right: 87px;
+    }
+    #map div.map img.eight {
+        top: 25px;
+        right: 98px;
+    }
+    #map div.map div.three {
+        top: 38px;
+        right: 91px;
+    }
+    #map div.map img.six {
+        bottom: 84px;
+        left: 170px;
+    }
+    #testimonial section.top h2 {
+        font-size: 22px;
+    }
+    #testimonial section.bottom {
+        margin-bottom: 0;
+    }
+    #testimonial section.bottom div.item {
+        width: 85%;
+        margin: 0 auto 40px;
+    }
+    #testimonial section.bottom div.item:last-child {
+        margin-top: 40px;
+    }
+    #work div.content form button {
+        right: 116px;
+    }
+    #work div.content form input[type="submit"] {
+        padding: 8px 30px;
+    }
+    footer div.content div.item.one {
+        width: 100%;
+    }
+    footer {
+        padding: 25px 10px;
+    }
+    footer div.content div.item {
+        width: 30%;
+    }
+    footer div.content div.item.one p {
+        width: 100%;
+        font-size: 13px;
+    }
+    footer div.content div.item ul li p {
+        font-size: 12px;
+    }
+    footer div.content div.item ul li.flex div a {
+        width: 6px;
+    }
+    footer div.content div.item ul li.flex div {
+        margin-right: 5px;
+    }
+    footer div.content div.item ul li.flex div {
+        width: 24px;
+        height: 24px;
+    }
+    footer div.content div.item ul li.flex div a {
+        margin-left: 10px;
+        margin-top: 7px;
+    }    
+    footer div.content div.item ul li.flex div a.one {
+        margin-top: 7px;
+        width: 13px;
+        margin-left: 7px;    
+    }
+    footer div.content div.item ul li.flex div a.two {
+        margin-left: 5px;
+        margin-top: 8px;
+        width: 14px;
+    }
+    @media all and (max-width: 360px){
+        #spotlight section.container div.left p {
+            font-size: 13px;
+        }
+        #main section.container div.right p {
+            font-size: 12px;
+        }
+        #main section.service h2 {
+            font-size: 21px;
+        }
+        #main section.service h2 span{
+            font-size: 21px;
+        }
+        #main section.box div.item div.content h2 {
+            font-size: 12px;
+        }
+        #main section.box div.item {
+            padding: 14px;
+        }
+        #main section.box div.item div.content p {
+            font-size: 11px;
+        }
+        #overview {
+            padding: 60px 30px 25px;
+        }
+        #overview section.container div.right h2 span {
+            font-size: 18px;
+        }
+        #overview section.container div.right h2 {
+            font-size: 18px;
+        }
+        #overview section.container div.right p {
+            font-size: 12px;
+        }
+        #map div.content h2 {
+            font-size: 18px;
+        }
+        #map div.content {
+            text-align: center;
+            margin-bottom: 45px;
+        }
+    }
+    
+    
+    
+    
+    
+    
     
         
     
