@@ -97,7 +97,8 @@ header h1 a img{
 	width: 100%;
 }
 header nav { 
-
+	display: flex;
+	position: relative;
 }
 header nav ul { 
 	display: flex;
@@ -716,6 +717,62 @@ footer div.bottom p a{
 	font-weight: bold;
 }
 
+/* mobilemenu */
+header div.mobilemenu{ 
+	display: none;
+	width: 23px;
+	position: absolute;
+}
+header div.mobilemenu a img{ 
+	width: 100%;
+	display: block;
+}
+header section.menu{
+	background: #fff;
+	width: 290px;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	z-index: 4;
+	position: fixed;
+	padding: 30px 42px ;
+	display: none;
+}
+header section.menu.active{
+	display: block;
+}
+header section.menu div.close{
+	width: 20px;
+	margin-bottom: 60px;
+}
+header section.menu div.close img{
+	width: 100%;
+	display: block;
+}
+header section.menu ul{
+	
+}
+header section.menu ul li{
+	margin-bottom: 30px;
+	
+}
+header section.menu ul li a{
+	font-weight: bold;
+	font-optical-sizing: 15px;
+}
+span.overlay {
+	background-color: rgba(0,0,0,0.5);
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	position: fixed;
+	z-index: 2;
+	display: none;
+}
+span.overlay.active {
+	display: block;
+}
 /* responsive */
 
 @media all and (max-width: 1380px){
@@ -903,10 +960,29 @@ footer div.bottom p a{
 	footer {
 		padding: 30px 60px;
 	}
+	footer div.content div.item ul li.flex div {
+		width: 42px;
+		height: 34px;
+	}
+	footer div.content div.item ul li.flex div a {
+		margin-left: 13px;
+		margin-top: 9px;
+	}
+	footer div.content div.item ul li.flex div a.one {
+		margin-left: 12px;
+		margin-top: 11px;
+	}
+	footer div.content div.item ul li.flex div a.two {
+		margin-left: 9px;
+		margin-top: 10px;
+	}
 }
 @media all and (max-width: 1080px){
 	#overview {
 		background-size: 625px;
+	}
+	#overview section.container div.right h2 {
+		width: 95%;
 	}
 	#map div.map img.five {
 		bottom: 97px;
@@ -943,6 +1019,15 @@ footer div.bottom p a{
 	footer div.content div.item.one p {
 		width: 80%;
 	}
+	footer div.content div.item ul li.flex div a.one {
+		margin-left: 9px;
+	}
+	footer div.content div.item ul li.flex div a.two {
+		margin-left: 7px;
+	}
+	footer div.content div.item ul li.flex div {
+		width: 30px;
+		height: 30px;	
 }
 @media all and (max-width: 980px){
 	header {
@@ -1116,20 +1201,22 @@ footer div.bottom p a{
 		width: 20%;
 	}
 	footer div.content div.item ul li.flex div {
-		width: 34px;
-		height: 34px;
+		width: 30px;
+		height: 30px;
 	}
 	footer div.content div.item ul li.flex div a {
 		margin-left: 13px;
 		margin-top: 9px;
+		width: 7px;
 	}		
 	footer div.content div.item ul li.flex div a.one {
-		width: 15px;
-		margin-left: 11px;
+		width: 12px;
+		margin-left: 10px;
 	}
 	footer div.content div.item ul li.flex div a.two {
 		margin-left: 8px;
 		margin-top: 10px;
+		width: 14px;
 	}
 	footer div.content div.item.one {
 		width: 40%;
@@ -1169,6 +1256,7 @@ footer div.bottom p a{
 	}
 	#main section.container div.right p {
 		width: 95%;
+		font-size: 13px;
 	}
 	#main section.service {
 		width: 90%;
@@ -1180,7 +1268,10 @@ footer div.bottom p a{
 	}
 	#overview section.container div.right h2 {
 		font-size: 22px;
-	}	
+	}
+	#overview section.container div.right p {
+		font-size: 13px;
+	}
 	#overview section.container div.right h2 span{
 		font-size: 22px;
 	}	
@@ -1242,8 +1333,15 @@ footer div.bottom p a{
 		margin-top: 100px;
 	}
 	#work div.content form button {
-		right: 153px;
-		top: 16px;
+		right: 144px;
+		top: 12px;
+	}
+	#work div.content form input[type="text"] {
+		padding: 12px 14px;
+		font-size: 13px;
+	}
+	#work div.content form input[type="submit"] {
+		padding: 12px 30px;
 	}
 	footer {
 		padding: 25px 50px;
@@ -1265,6 +1363,9 @@ footer div.bottom p a{
 	footer div.content div.item ul li.flex div a.one {
 		margin-top: 11px;
 	}
+	footer div.bottom p {
+		font-size: 13px;
+	}
 }
 @media all and (max-width: 640px){
     header {
@@ -1274,7 +1375,7 @@ footer div.bottom p a{
         display: none;
     }
     #spotlight{
-    padding: 50px;
+    	padding: 50px;
     }
     #spotlight section.container div.right {
         display: none;
@@ -1341,10 +1442,9 @@ footer div.bottom p a{
     #map div.map img {
         width: 10px;
     }
-    #map div.map img.two {
-        top: 3px;
-        left: 93px;
-    }
+    header div.mobilemenu {
+		left: 299px;
+	}
     #map div.map img.three {
         top: 24px;
         left: 60px
@@ -1359,37 +1459,41 @@ footer div.bottom p a{
         padding: 1px 4px;
     }
     #map div.map div.one {
-        top: 35px;
-        left: 50px;
-    }
+		top: 39px;
+		left: 52px;
+	}
     #map div.map img.seven {
-        bottom: 133px;
-        right: 323px;
-    }
+		bottom: 112px;
+		right: 201px;
+	}
     #map div.map img.five {
         bottom: 48px;
         left: 128px;
     }
     #map div.map img.four {
-        top: 93px;
-        left: 226px;
-    }
+		top: 72px;
+		left: 101px;
+	}
     #map div.map img.six {
-        bottom: 108px;
-        left: 297px;
-    }
+		bottom: 106px;
+		left: 297px;
+	}	
     #map div.map img.eight {
-        top: 33px;
-        right: 145px;
-    }
-    #map div.map div.three {
-        top: 47px;
-        right: 135px;
-    }
+		top: 33px;
+		right: 142px;
+	}
+    #map div.map img.three {
+		top: 26px;
+		left: 59px;
+	}
     #map div.map div.two {
-        bottom: 94px;
-        right: 114px;
-    }
+		bottom: 97px;
+		right: 121px;
+	}	
+	#map div.map div.three {
+		top: 44px;
+		right: 136px;
+	}
     #testimonial section.bottom div.item {
         padding: 30px 15px 0;
     }
@@ -1445,6 +1549,11 @@ footer div.bottom p a{
     footer div.bottom p {
         font-size: 10px;
     }
+	header div.mobilemenu {
+		left: 400px;
+		top: 37px;
+		display: block;
+	}	
 }
 @media all and (max-width: 640px){
     header {
@@ -1484,7 +1593,7 @@ footer div.bottom p a{
     }
     #main section.service {
         width: 100%;
-        margin: 80px auto 60px;
+        margin: 100px auto 60px;
     }
     #main section.service h2 span {
         font-size: 25px;
@@ -1517,10 +1626,10 @@ footer div.bottom p a{
         padding: 14px 35px;
         font-size: 12px;
     }
-    #overview {
-        background: none;
-        padding: 120px 30px 25px;
-    }
+	#overview {
+		background: none;
+		padding: 80px 30px 25px;
+	}
     #overview section.container div.right h2 {
         font-size: 20px;
     }
@@ -1534,14 +1643,14 @@ footer div.bottom p a{
     #map div.content h2 {
         font-size: 23px;
     }
-    #map div.map img.two {
-        top: 0px;
-        left: 68px;
-    }
+	#map div.map img.two {
+		top: 4px;
+		left: 92px;
+	}
     #map div.map img.three {
-        top: 19px;
-        left: 43px;
-    }
+		top: 27px;
+		left: 59px;
+	}
     #map div.map div h6 {
         font-size: 3px;
     }
@@ -1552,37 +1661,37 @@ footer div.bottom p a{
         border-radius: 2px;
     }
     #map div.map div.one {
-        top: 31px;
-        left: 37px;
-    }
+		top: 38px;
+		left: 52px;
+	}
     #map div.map img.seven {
-        bottom: 100px;
-        right: 241px;
-    }
+		bottom: 112px;
+		right: 203px;
+	}
     #map div.map img.five {
-        bottom: 31px;
-        left: 97px;
-    }
+		bottom: 47px;
+		left: 132px;
+	}	
     #map div.map img.four {
-        top: 70px;
-        left: 221px;
-    }
+		top: 72px;
+		left: 101px;
+	}
     #map div.map div.two {
-        bottom: 71px;
-        right: 87px;
-    }
-    #map div.map img.eight {
-        top: 25px;
-        right: 98px;
-    }
-    #map div.map div.three {
-        top: 38px;
-        right: 91px;
-    }
-    #map div.map img.six {
-        bottom: 84px;
-        left: 170px;
-    }
+		bottom: 97px;
+		right: 122px;
+	}
+	#map div.map img.eight {
+		top: 33px;
+		right: 142px;
+	}
+	#map div.map div.three {
+		top: 44px;
+		right: 136px;
+	}
+	#map div.map img.six {
+		bottom: 108px;
+		left: 296px;
+	}
     #testimonial section.top h2 {
         font-size: 22px;
     }
@@ -1595,10 +1704,14 @@ footer div.bottom p a{
     }
     #testimonial section.bottom div.item:last-child {
         margin-top: 40px;
-    }
-    #work div.content form button {
-        right: 116px;
-    }
+	}
+	#testimonial section.bottom div.item p {
+		font-size: 15px;
+	}
+	#work div.content form button {
+		right: 135px;
+		top: 10px;
+	}
     #work div.content form input[type="submit"] {
         padding: 8px 30px;
     }
@@ -1612,7 +1725,7 @@ footer div.bottom p a{
         width: 30%;
     }
     footer div.content div.item.one p {
-        width: 100%;
+        width: 85%;
         font-size: 13px;
     }
     footer div.content div.item ul li p {
@@ -1642,48 +1755,112 @@ footer div.bottom p a{
         margin-top: 8px;
         width: 14px;
     }
-    @media all and (max-width: 360px){
-        #spotlight section.container div.left p {
-            font-size: 13px;
-        }
-        #main section.container div.right p {
-            font-size: 12px;
-        }
-        #main section.service h2 {
-            font-size: 21px;
-        }
-        #main section.service h2 span{
-            font-size: 21px;
-        }
-        #main section.box div.item div.content h2 {
-            font-size: 12px;
-        }
-        #main section.box div.item {
-            padding: 14px;
-        }
-        #main section.box div.item div.content p {
-            font-size: 11px;
-        }
-        #overview {
-            padding: 60px 30px 25px;
-        }
-        #overview section.container div.right h2 span {
-            font-size: 18px;
-        }
-        #overview section.container div.right h2 {
-            font-size: 18px;
-        }
-        #overview section.container div.right p {
-            font-size: 12px;
-        }
-        #map div.content h2 {
-            font-size: 18px;
-        }
-        #map div.content {
-            text-align: center;
-            margin-bottom: 45px;
-        }
-    }
+		header div.mobilemenu {
+			left: 299px
+	}	
+}
+@media all and (max-width: 360px){
+	#spotlight section.container div.left p {
+		font-size: 13px;
+	}
+	#spotlight section.container div.left a.button {
+		padding: 12px 25px;
+	}
+	#main section.container div.right p {
+		font-size: 12px;
+	}
+	#main section.service h2 {
+		font-size: 21px;
+	}
+	#main section.service h2 span{
+		font-size: 21px;
+	}
+	#main section.box div.item div.content h2 {
+		font-size: 12px;
+	}
+	#main section.box div.item {
+		padding: 14px;
+	}
+	#main section.box div.item div.content p {
+		font-size: 11px;
+	}
+	#overview {
+		padding: 60px 30px 25px;
+	}
+	#overview section.container div.right h2 span {
+		font-size: 18px;
+	}
+	#overview section.container div.right h2 {
+		font-size: 18px;
+	}
+	#overview section.container div.right p {
+		font-size: 12px;
+	}
+	#map div.content h2 {
+		font-size: 18px;
+	}
+	#map div.content {
+		text-align: center;
+		margin-bottom: 45px;
+	}
+	#map div.map img.two {
+		top: 0px;
+		left: 61px;
+	}
+	#map div.map img.three {
+		top: 17px;
+		left: 38px;
+	}
+	#map div.map img.five {
+		bottom: 32px;
+		left: 85px;
+	}
+	#map div.map img.six {
+		bottom: 73px;
+		left: 148px;
+	}
+	#map div.map div.two {
+		bottom: 55px;
+		right: 51px;
+	}
+	#testimonial section.top h2 {
+		font-size: 20px;
+	}
+	#work div.content form input[type="text"] {
+		font-size: 9px;
+		width: 60%;
+	}
+	#work div.content form button {
+		right: 105px;
+		top: 8px;
+	}
+	#work div.content form input[type="submit"] {
+		padding: 6px 22px;
+		font-size: 12px;
+		border-radius: 9px;
+	}
+	#work {
+		padding: 0 0 57px;
+	}
+	footer div.content div.item ul li {
+		font-size: 10px;
+	}
+	footer div.bottom p {
+		font-size: 10px;
+		width: 90%;
+	}
+	footer div.content div.item ul li.flex div a.one {
+		margin-left: 6px;
+	}
+	footer div.content div.item ul li.flex div a.two {
+		margin-top: 7px;
+	}
+	header div.mobilemenu {
+		left: 255px;
+		top: 37px;
+	}
+}
+    
     
     
     
