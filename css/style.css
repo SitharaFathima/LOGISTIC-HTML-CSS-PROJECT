@@ -653,6 +653,7 @@ footer div.content div.item.one p{
 	width: 90%;
 }
 footer div.content div.item ul{
+
 }
 footer div.content div.item ul li{
 	font-size: 13px;
@@ -782,9 +783,6 @@ span.overlay.active {
 	#work div.content form button {
 		right: 207px;
 	}
-	footer div.content div.item {
-		width: 18%;
-	}
 	#main{
 		background-size: 704px;
 		background-position: left -191px top 12px;
@@ -793,11 +791,16 @@ span.overlay.active {
 		top: -287px;
 		right: 66px;
 	}
+	#overview section.container div.left div.image {
+		width: 70%;
+	}
+	#overview section.container div.right p {
+		width: 96%;
+	}
 	#testimonial {
 		background-size: 468px;
 		background-position: left -17px bottom -22px;
 	}
-	
 	#map div.map img.two {
 		top: 11px;
 		left: 243px;
@@ -842,6 +845,9 @@ span.overlay.active {
 		bottom: 124px;
 		left: 344px;
 	}	
+	footer div.content div.item {
+		width: 18%;
+	}
 }
 @media all and (max-width: 1280px){
 	header nav ul li {
@@ -1023,11 +1029,13 @@ span.overlay.active {
 		margin-left: 9px;
 	}
 	footer div.content div.item ul li.flex div a.two {
-		margin-left: 7px;
+		margin-left: 6px;
+		margin-top: 8px;
 	}
 	footer div.content div.item ul li.flex div {
 		width: 30px;
-		height: 30px;	
+		height: 30px;
+	}	
 }
 @media all and (max-width: 980px){
 	header {
@@ -1110,16 +1118,16 @@ span.overlay.active {
 		font-size: 14px;
 		padding: 16px 50px;
 	}	
+	#map div.map img.four {
+		top: 115px;
+		left: 160px;
+	}
 	#map div.map img{
 		width: 16px;
 	}
 	#map div.map img.two {
 		top: -3px;
 		left: 156px;
-	}
-	#map div.map img.three {
-		top: 42px;
-		left: 94px;
 	}
 	#map div.map div {
 		padding: 1px 8px;
@@ -1143,6 +1151,10 @@ span.overlay.active {
 	#map div.map div.three {
 		top: 74px;
 		right: 216px;
+	}
+	#map div.map img.three {
+		top: 42px;
+		left: 94px;
 	}
 	#map div.map img.six {	
 		bottom: 170px;
@@ -1178,6 +1190,7 @@ span.overlay.active {
 	}
 	#work div.content form input[type="text"] {
     	padding: 15px 15px;
+		font-size: 13px;
 	}
 	#work div.content form button {
 		right: 177px;
@@ -1310,8 +1323,8 @@ span.overlay.active {
 		left: 394px;
 	}
 	#map div.map div.two {
-    bottom: 125px;
-    right: 154px;
+		bottom: 125px;
+		right: 154px;
 	}
 	#map div.map img.eight {
 		top: 46px;
@@ -1759,9 +1772,12 @@ span.overlay.active {
         margin-top: 7px;
         width: 14px;
     }
-		header div.mobilemenu {
-			left: 299px
+	header div.mobilemenu {
+		left: 299px
 	}	
+	header section.menu {
+		width: 210px;
+	}
 }
 @media all and (max-width: 360px){
 	#spotlight section.container div.left p {
@@ -1889,22 +1905,10 @@ span.overlay.active {
 		left: 255px;
 		top: 37px;
 	}
-}
-    
-    
-    
-    
-    
-    
-    
-    
-        
-    
-
-    
-    
-    
-    
-    
-    
-}
+	header section.menu {
+		width: 185px;
+	}
+	header section.menu ul li a{
+		font-size: 14px;
+	}
+}   
