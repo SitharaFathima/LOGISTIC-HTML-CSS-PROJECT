@@ -1555,7 +1555,7 @@ span.overlay.active {
 		display: block;
 	}	
 }
-@media all and (max-width: 640px){
+@media all and (max-width: 480px){
     header {
         padding: 35px 45px 0;
     }
@@ -1644,8 +1644,8 @@ span.overlay.active {
         font-size: 23px;
     }
 	#map div.map img.two {
-		top: 4px;
-		left: 92px;
+		top: -1px;
+		left: 68px;
 	}
     #map div.map img.three {
 		top: 27px;
@@ -1661,36 +1661,40 @@ span.overlay.active {
         border-radius: 2px;
     }
     #map div.map div.one {
-		top: 38px;
-		left: 52px;
+		top: 32px;
+		left: 39px;
 	}
-    #map div.map img.seven {
-		bottom: 112px;
-		right: 203px;
+	#map div.map img.three {
+		top: 20px;
+		left: 45px;
 	}
     #map div.map img.five {
-		bottom: 47px;
-		left: 132px;
-	}	
+		bottom: 81px;
+		left: 166px;
+	}		
     #map div.map img.four {
-		top: 72px;
-		left: 101px;
+		top: 117px;
+		left: 97px;
 	}
-    #map div.map div.two {
-		bottom: 97px;
-		right: 122px;
+	#map div.map div.two {
+		bottom: 73px;
+		right: 89px;
 	}
 	#map div.map img.eight {
-		top: 33px;
-		right: 142px;
+		top: 25px;
+		right: 106px;
 	}
 	#map div.map div.three {
-		top: 44px;
-		right: 136px;
+		top: 37px;
+		right: 99px;
 	}
 	#map div.map img.six {
-		bottom: 108px;
-		left: 296px;
+		bottom: 82px;
+		left: 220px;
+	}
+	#map div.map img.seven {
+		bottom: 100px;
+		right: 241px;
 	}
     #testimonial section.top h2 {
         font-size: 22px;
@@ -1706,10 +1710,10 @@ span.overlay.active {
         margin-top: 40px;
 	}
 	#testimonial section.bottom div.item p {
-		font-size: 15px;
+		font-size: 13px;
 	}
 	#work div.content form button {
-		right: 135px;
+		right: 113px;
 		top: 10px;
 	}
     #work div.content form input[type="submit"] {
@@ -1725,7 +1729,7 @@ span.overlay.active {
         width: 30%;
     }
     footer div.content div.item.one p {
-        width: 85%;
+        width: 92%;
         font-size: 13px;
     }
     footer div.content div.item ul li p {
@@ -1752,7 +1756,7 @@ span.overlay.active {
     }
     footer div.content div.item ul li.flex div a.two {
         margin-left: 5px;
-        margin-top: 8px;
+        margin-top: 7px;
         width: 14px;
     }
 		header div.mobilemenu {
@@ -1774,6 +1778,9 @@ span.overlay.active {
 	}
 	#main section.service h2 span{
 		font-size: 21px;
+	}
+	#main section.service p {
+		font-size: 13px;
 	}
 	#main section.box div.item div.content h2 {
 		font-size: 12px;
@@ -1804,24 +1811,47 @@ span.overlay.active {
 		margin-bottom: 45px;
 	}
 	#map div.map img.two {
-		top: 0px;
-		left: 61px;
+		top: 4px;
+		left: 60px;
 	}
 	#map div.map img.three {
-		top: 17px;
-		left: 38px;
+		top: 16px;
+		left: 44px;
 	}
+	#map div.map img.four {
+		top: 59px;
+		left: 197px;
+	}	
 	#map div.map img.five {
-		bottom: 32px;
-		left: 85px;
-	}
+		bottom: 29px;
+		left: 88px;
+	}	
 	#map div.map img.six {
 		bottom: 73px;
 		left: 148px;
 	}
+	#map div.map img.seven {
+		bottom: 88px;
+		right: 214px;
+	}#map div.map img.eight {
+		top: 24px;
+		right: 95px;
+	}
 	#map div.map div.two {
 		bottom: 55px;
 		right: 51px;
+	}
+	#map div.map div.two {
+		bottom: 63px;
+		right: 76px;
+	}
+	#map div.map div.one {
+		top: 28px;
+		left: 38px;
+	}	
+	#map div.map div.three {
+		top: 37px;
+		right: 89px;
 	}
 	#testimonial section.top h2 {
 		font-size: 20px;
